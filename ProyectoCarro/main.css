@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*NAV*/
+
+nav {
+  height: 100px;
+  width: 100%;
+
+  background-color: #142561;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+}
+nav ul li {
+  list-style: none;
+  background-color: orange;
+  margin: 20px;
+  margin-top: 40px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  margin: 10px;
+}
+
+h1 {
+  margin-bottom: 50px;
+
+  justify-content: center;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  min-height: calc(100vh - 300px);
+  background-color: rgba(209, 208, 207, 0.5);
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 50%;
+  justify-content: space-around;
+  background-color: #7e95e6;
+  margin-top: 20px;
+}
+.mangasImg {
+  height: 75%;
+  width: 100%;
+}
+
+.agregarACarrito {
+  background-color: #343e61;
+  margin: 5px;
+}
+
+.productos .card {
+  margin: 5px;
+}
+.tituloManga {
+  background-color: rgba(53, 56, 61, 0.3);
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.precioManga {
+  background-color: rgba(53, 56, 61, 0.3);
+}
+#carrito {
+  height: 100%;
+}
+
+/*CArrito total*/
+
+.carritoTotal {
+  display: flex;
+  justify-content: space-around;
+}
+.precio {
+  display: flex;
+}
+
+.precioTotal {
+  margin-left: 50px;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 50%;
+  background-color: #142561;
+  height: 200px;
+  width: 100%;
+}
+
+.nombreFooter {
+  flex: 1 1 50%;
+}
+
+.footer p {
+  color: aliceblue;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.footer .infoFooter {
+  flex: 1 1 50%;
+}
